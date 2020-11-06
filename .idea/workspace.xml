@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ceab9be-22b7-4dfe-b81f-575c95ad2f73" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/smarty/smarty" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jjaCOpEQ7JSoOAaXXs5ifrls36" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Helpers" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ceab9be-22b7-4dfe-b81f-575c95ad2f73" name="Default Changelist" comment="" />
+      <created>1604319827625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604319827625</updated>
+      <workItem from="1604319829145" duration="6000" />
+      <workItem from="1604319876858" duration="965000" />
+      <workItem from="1604337180926" duration="1776000" />
+      <workItem from="1604338997338" duration="2767000" />
+      <workItem from="1604341802777" duration="1603000" />
+      <workItem from="1604343836263" duration="1696000" />
+      <workItem from="1604345651088" duration="1559000" />
+      <workItem from="1604349375983" duration="1129000" />
+      <workItem from="1604386322680" duration="2495000" />
+      <workItem from="1604388910716" duration="1672000" />
+      <workItem from="1604394125720" duration="677000" />
+      <workItem from="1604396075250" duration="715000" />
+      <workItem from="1604413455764" duration="1337000" />
+      <workItem from="1604419712746" duration="600000" />
+      <workItem from="1604516146423" duration="1765000" />
+      <workItem from="1604517952852" duration="1785000" />
+      <workItem from="1604519821901" duration="599000" />
+      <workItem from="1604592986730" duration="1764000" />
+      <workItem from="1604594792563" duration="1487000" />
+      <workItem from="1604596609572" duration="1778000" />
+      <workItem from="1604598430425" duration="1776000" />
+      <workItem from="1604600248659" duration="1479000" />
+      <workItem from="1604602371511" duration="1774000" />
+      <workItem from="1604604193722" duration="1774000" />
+      <workItem from="1604606013810" duration="1775000" />
+      <workItem from="1604607829690" duration="1821000" />
+      <workItem from="1604651896483" duration="1193000" />
+      <workItem from="1604653868699" duration="1583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="691" y="176" width="590" height="664" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604607647562">
+      <screen x="72" y="27" width="1848" height="948" />
+    </state>
+    <state x="691" y="176" width="590" height="664" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.948@72.27.1848.948" timestamp="1604607647562" />
+    <state x="639" y="209" width="465" height="568" key="NewPhpClassDialog" timestamp="1604603210752">
+      <screen x="72" y="27" width="1848" height="948" />
+    </state>
+    <state x="406" y="202" width="505" height="568" key="NewPhpClassDialog/72.27.1088.911@72.27.1088.911" timestamp="1604349420220" />
+    <state x="406" y="207" key="NewPhpClassDialog/72.27.1088.939@72.27.1088.939" timestamp="1604518542632" />
+    <state x="639" y="209" width="465" height="568" key="NewPhpClassDialog/72.27.1848.948@72.27.1848.948" timestamp="1604603210752" />
+    <state x="366" y="207" width="505" height="568" key="NewPhpClassDialog/72.27.958.939@72.27.958.939" timestamp="1604594457614" />
+    <state x="411" y="422" width="399" height="156" key="NewPhpFileDialog" timestamp="1604519509226">
+      <screen x="72" y="27" width="1088" height="939" />
+    </state>
+    <state x="411" y="422" width="399" height="156" key="NewPhpFileDialog/72.27.1088.939@72.27.1088.939" timestamp="1604519509226" />
+    <state x="485" y="136" width="1022" height="737" key="SettingsEditor" timestamp="1604605847898">
+      <screen x="72" y="27" width="1848" height="948" />
+    </state>
+    <state x="485" y="136" width="1022" height="737" key="SettingsEditor/72.27.1848.948@72.27.1848.948" timestamp="1604605847898" />
+    <state x="215" y="223" key="run.anything.popup" timestamp="1604594469070">
+      <screen x="72" y="27" width="958" height="939" />
+    </state>
+    <state x="215" y="223" key="run.anything.popup/72.27.958.939@72.27.958.939" timestamp="1604594469070" />
+  </component>
+</project>

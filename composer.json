@@ -1,0 +1,15 @@
+{
+    "name": "anastasia/november",
+    "require": {
+        "smarty/smarty": "^3.1"
+    },
+    "require-dev": {
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Anastasia Zhuravel",
+            "email": "zhuravelanastasia444@gmail.com"
+        }
+    ]
+}
