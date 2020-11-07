@@ -3,35 +3,37 @@
 
 class Session
 {
-    public static function start()
+    private static $self;
+    public static function  getSession():self
     {
-        if (isset($_COOKIE['session_id'])) {
+        return self::$self ?? self::$self = new Session();
+    }
+
+    private function __construct()
+    {
+        if ($_COOKIE['session_id'] ?? []) {
             session_id($_COOKIE['session_id']);
             session_start();
         } else {
+            $sessionId = md5(rand(1,100000) . md5(time()));
+            session_id($sessionId);
             session_start();
-            setcookie('session_id', session_id(), time() + 60*60);
+            setcookie('session_id', $sessionId, time() + 3600, '/');
         }
-
     }
 
-
-    public static function set($key,$value)
+    public function set(string $key, $value)
     {
-       $_SESSION[$key] = $value;
+        $_SESSION[$key] = $value;
     }
 
-    public static function get($key)
+    public function get(string $key, $default = null)
     {
-        if(isset($_SESSION[$key]) ) {
-            return $_SESSION[$key];
-        }
-        return NULL;
+         return $_SESSION[$key] ?? $default;
     }
 
-    public function terminate()
+    public function terminate(string $key): void
     {
-        session_destroy();
+        unset($_SESSION[$key]);
     }
-
 }

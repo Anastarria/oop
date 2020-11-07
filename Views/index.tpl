@@ -1,8 +1,6 @@
 {extends file="layout.tpl"}
 {block name=body}
 
-    Current time: {{$now}}
-
     <table class="table">
         <thead>
         <tr>
@@ -18,7 +16,7 @@
                     <td><a href="/user/info/{$user['id']}">{$user['id']}</td>
                     <td>{$user['email']}</td>
                     <td>{$user['created_at']}</td>
-                    <td><a href="/user/delete/{$user['id']}" class="btn btn-danger">Terminate</td>
+                    <td><a href="/auth/terminate/{$user['id']}" class="btn btn-danger">Terminate</td>
                 </tr>
             {/foreach}
         </tbody>

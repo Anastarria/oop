@@ -3,13 +3,26 @@
 
 class PostController
 {
-    public function create()
+    public function make()
     {
+
+        $title = $_POST['title'];
+        $text = $_POST['text'];
+        Session::getSession();
+        $email = $_SESSION['user']['email'];
+
+        $post = new PostModel();
+        $post->setTitle($title)
+            ->setText($text)
+            ->setAuthorEmail($email)
+            ->save();
 
     }
 
-    public function info()
+    public function makePage()
     {
+            $smarty = View::getInstance();
+            $smarty->display('posts.tpl');
 
     }
 

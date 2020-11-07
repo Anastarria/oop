@@ -22,16 +22,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             {if isset($smarty.session.user)}
                 <ul class="nav navbar-nav navbar-left">
-                    <li>[A] Users</li>
-                    <li>[A] Categories</li>
-                    <li>[A] Products</li>
-                    <li>[A] Orders</li>
+                    <li><a href="/post/info">POSTS</a>a></li>
+
                 </ul>
             {/if}
             <ul class="nav navbar-nav navbar-right">
 
                 {if !isset($smarty.session.user)}
-                    <li><a href="/auth/login">Login</a></li>
+                    <li><a href="/auth/loginPage">Login</a></li>
                     <li><a href="/auth/register">Register</a></li>
                 {/if}
 

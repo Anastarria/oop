@@ -2,17 +2,18 @@
 
 class AuthController
 {
+    public function loginPage()
+    {
+        $smarty = View::getInstance();
+        $smarty->display('login.tpl');
+
+        return;
+    }
+
     public function login()
     {
-        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-            $smarty = View::getInstance();
+        $session = Session::getSession();
 
-            $smarty->display('login.tpl');
-
-            return;
-        }
-
-        global $parameter;
         $email = $_POST['email'];
         $pass = $_POST['password'];
 
@@ -31,18 +32,18 @@ class AuthController
         if(!$user){
             die("No such user, try again");
         }
-        $smarty = View::getInstance();
-        $smarty->assign('user', $user);
 
         if(md5($pass) !== $user->getPassword()){
             die("You shall not pass!");
         }
-
-        Session::start();
-//        $_SESSION['user'] = $user;
-//        Session:set('user', $user);
-
+        $session->set('user', [
+            'email' => $email,
+            'password' => $pass
+        ]);
+        print_r($_SESSION['user']['email']);
+        die();
         header("Location: /");
+
     }
 
     public function logout()
@@ -61,7 +62,7 @@ class AuthController
 
             return;
         }
-
+        $session = Session::getSession();
         $email = $_POST['email'];
         $pass = $_POST['password'];
 
@@ -70,10 +71,26 @@ class AuthController
             ->setPassword($pass)
             ->save();
 
-        session_start();
-        setcookie('session_id', session_id(), time() + 60*60);
+        $session->get('user', [
+            'email' => $email
+        ]);
+
 
         header("Location: /");
+    }
+
+    public  function terminate()
+    {
+        global $parameter;
+
+        $user = UserModel::find($parameter);
+
+        if (!$user) {
+            die("User not found [404 error]");
+        }
+
+        $user->delete();
+        header("Location: /user");
     }
 
 }

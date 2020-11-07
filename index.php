@@ -4,7 +4,7 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 
 require_once "vendor/autoload.php";
-
+require_once "Helpers/Session.php";
 spl_autoload_register(function ($class){
     $folder = "Helpers";
     if (strpos($class, "Model") !== false) {
@@ -19,7 +19,6 @@ spl_autoload_register(function ($class){
 
     require_once $filePath;
 });
-
 
 $requestURI = ltrim($_SERVER['REQUEST_URI']);
 $parts = explode('/', $requestURI);
@@ -36,3 +35,8 @@ if(method_exists($object, $method)){
 } else {
     die("Not found");
 }
+//$smarty = View::getInstance();
+//$users = UserModel::all();
+//
+//$smarty->assign('users', $users);
+//$smarty->display('index.tpl');
