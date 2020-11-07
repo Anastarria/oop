@@ -17,6 +17,8 @@ class PostController
             ->setAuthorEmail($email)
             ->save();
 
+        header("Location: /post/show");
+
     }
 
     public function makePage()
@@ -26,14 +28,33 @@ class PostController
 
     }
 
+    public function show()
+    {
+        $smarty = View::getInstance();
+
+        $posts = PostModel::all();
+
+        $smarty->assign('posts', $posts);
+        $smarty->display('showPosts.tpl');
+    }
+
 // то что ниже можно делать только для своих собственных постов
     public function update()
     {
 
     }
 
-    public function delete()
+    public function terminate()
     {
+        global $parameter;
 
+        $post = PostModel::find($parameter);
+
+        if (!$post) {
+            die("Such post does not exist [404 error]");
+        }
+
+        $post->delete();
+        header("Location: /user");
     }
 }

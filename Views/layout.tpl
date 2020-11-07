@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             {if isset($smarty.session.user)}
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="/post/info">POSTS</a>a></li>
+                    <li><a href="/post/show">POSTS</a></li>
 
                 </ul>
             {/if}

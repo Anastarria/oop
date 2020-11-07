@@ -9,21 +9,4 @@
         <input type="submit" class="btn btn-success" value="Publish">
     </form>
 
-
-
-{*        {foreach from=$users item=user}*}
-{*            <div class='card'>*}
-{*                <div class='card-header'>*}
-{*                    {$thread['title']}*}
-{*                </div>*}
-{*                <div class='card-body'>*}
-{*                    <blockquote class='blockquote mb-0'>*}
-{*                        <p>{$thread['comment']}</p>*}
-{*                        <footer class='blockquote-footer'>Added by <cite title='Source Title'>{$thread['addedby']}</cite></footer>*}
-{*                    </blockquote>*}
-{*                </div>*}
-{*            </div>*}
-{*        {/foreach}*}
-
-
 {/block}

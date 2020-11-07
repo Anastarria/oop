@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.36, created on 2020-11-07 15:38:00
+/* Smarty version 3.1.36, created on 2020-11-07 20:52:58
   from '/laravel/Views/layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_5fa6bf586eee52_58539526',
+  'unifunc' => 'content_5fa7092a156828_38094960',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eaf5869aaaa41ab1f730b336aeaeba2170651c38' => 
     array (
       0 => '/laravel/Views/layout.tpl',
-      1 => 1604763464,
+      1 => 1604782367,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fa6bf586eee52_58539526 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fa7092a156828_38094960 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -52,7 +52,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <?php if ((isset($_SESSION['user']))) {?>
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="/post/info">POSTS</a>a></li>
+                    <li><a href="/post/show">POSTS</a></li>
 
                 </ul>
             <?php }?>
@@ -73,7 +73,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 </nav>
 <div class="container">
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16185514225fa6bf586ee680_02406045', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_9439095985fa7092a154d25_94327060', 'body');
 ?>
 
 </div>
@@ -82,12 +82,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16185514225fa6bf58
 </body>
 </html><?php }
 /* {block 'body'} */
-class Block_16185514225fa6bf586ee680_02406045 extends Smarty_Internal_Block
+class Block_9439095985fa7092a154d25_94327060 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_16185514225fa6bf586ee680_02406045',
+    0 => 'Block_9439095985fa7092a154d25_94327060',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

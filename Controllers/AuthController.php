@@ -40,8 +40,7 @@ class AuthController
             'email' => $email,
             'password' => $pass
         ]);
-        print_r($_SESSION['user']['email']);
-        die();
+
         header("Location: /");
 
     }
@@ -51,6 +50,8 @@ class AuthController
         if (isset($_SESSION['user'])) {
             unset($_SESSION['user']);
         }
+
+        header("Location: /");
     }
 
     public function register()

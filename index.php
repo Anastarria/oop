@@ -19,7 +19,7 @@ spl_autoload_register(function ($class){
 
     require_once $filePath;
 });
-
+Session::getSession();
 $requestURI = ltrim($_SERVER['REQUEST_URI']);
 $parts = explode('/', $requestURI);
 array_shift($parts);
@@ -35,8 +35,7 @@ if(method_exists($object, $method)){
 } else {
     die("Not found");
 }
-//$smarty = View::getInstance();
-//$users = UserModel::all();
-//
-//$smarty->assign('users', $users);
-//$smarty->display('index.tpl');
+
+
+
+print_r($_SESSION);

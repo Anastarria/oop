@@ -11,19 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ceab9be-22b7-4dfe-b81f-575c95ad2f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/posts.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/november.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/november.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/showPosts.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/PostModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PostModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/layout.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Views/layout.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/posts.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Views/posts.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/6dfb002db87864e5730a50783441bef8200f8763_0.file.index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/6dfb002db87864e5730a50783441bef8200f8763_0.file.index.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/c8d645e78083d340c518ca33bb9353a841e32ab6_0.file.posts.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/c8d645e78083d340c518ca33bb9353a841e32ab6_0.file.posts.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates_c/eaf5869aaaa41ab1f730b336aeaeba2170651c38_0.file.layout.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/eaf5869aaaa41ab1f730b336aeaeba2170651c38_0.file.layout.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +112,12 @@
       <workItem from="1604760075880" duration="1729000" />
       <workItem from="1604761927825" duration="1764000" />
       <workItem from="1604763751369" duration="1763000" />
-      <workItem from="1604765622912" duration="1083000" />
+      <workItem from="1604765622912" duration="1774000" />
+      <workItem from="1604768423489" duration="1760000" />
+      <workItem from="1604770284806" duration="1934000" />
+      <workItem from="1604779406051" duration="1816000" />
+      <workItem from="1604781296644" duration="1039000" />
+      <workItem from="1604782703656" duration="893000" />
     </task>
     <servers />
   </component>
@@ -160,10 +163,10 @@
       <screen x="72" y="27" width="1088" height="939" />
     </state>
     <state x="411" y="422" width="399" height="156" key="NewPhpFileDialog/72.27.1088.939@72.27.1088.939" timestamp="1604519509226" />
-    <state x="485" y="136" width="1022" height="737" key="SettingsEditor" timestamp="1604605847898">
+    <state x="485" y="136" width="1022" height="737" key="SettingsEditor" timestamp="1604781951092">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state x="485" y="136" width="1022" height="737" key="SettingsEditor/72.27.1848.948@72.27.1848.948" timestamp="1604605847898" />
+    <state x="485" y="136" width="1022" height="737" key="SettingsEditor/72.27.1848.948@72.27.1848.948" timestamp="1604781951092" />
     <state x="215" y="223" key="run.anything.popup" timestamp="1604594469070">
       <screen x="72" y="27" width="958" height="939" />
     </state>
