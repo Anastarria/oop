@@ -107,9 +107,8 @@ class PostModel
           SET 
             `title` = '{$this->title}', 
             `text` = '{$this->text}'
-          WHERE `id` = `$parameter`
+          WHERE `id` = $parameter
           LIMIT 1");
-
 
     }
 

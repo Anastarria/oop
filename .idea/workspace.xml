@@ -11,22 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ceab9be-22b7-4dfe-b81f-575c95ad2f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/updatepage.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/userInfo.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/UserController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/PostModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PostModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/layout.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Views/layout.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/showPosts.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Views/showPosts.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/user.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/6dfb002db87864e5730a50783441bef8200f8763_0.file.index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/6dfb002db87864e5730a50783441bef8200f8763_0.file.index.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/de5e7bbc7619abd5ae72d35d17b9a8d9f28c0051_0.file.showPosts.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/de5e7bbc7619abd5ae72d35d17b9a8d9f28c0051_0.file.showPosts.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/eaf5869aaaa41ab1f730b336aeaeba2170651c38_0.file.layout.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/eaf5869aaaa41ab1f730b336aeaeba2170651c38_0.file.layout.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +116,8 @@
       <workItem from="1604791792322" duration="1772000" />
       <workItem from="1604793619506" duration="1652000" />
       <workItem from="1604829483440" duration="1766000" />
-      <workItem from="1604831297837" duration="1444000" />
+      <workItem from="1604831297837" duration="1806000" />
+      <workItem from="1604833407878" duration="715000" />
     </task>
     <servers />
   </component>

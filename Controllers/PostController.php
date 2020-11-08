@@ -52,6 +52,7 @@ class PostController
             ->setText($newtext)
             ->update();
 
+
         header("Location: /post/show");
     }
 
