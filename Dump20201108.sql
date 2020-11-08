@@ -29,7 +29,7 @@ CREATE TABLE `posts` (
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `text` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `posts` (
 
 LOCK TABLES `posts` WRITE;
 /*!40000 ALTER TABLE `posts` DISABLE KEYS */;
-INSERT INTO `posts` VALUES (1,'eee','','2020-11-07 16:21:25','eee'),(2,'rfrfrf','makesure@gmail.com','2020-11-07 16:24:35','rfrfr');
+INSERT INTO `posts` VALUES (20,'Can I update it now?','makesure@gmail.com','2020-11-07 23:24:28','Yes!'),(22,'Karma','makesure@gmail.com','2020-11-08 10:51:12','Ð’ÑÐµ ÐµÐ¼Ñƒ Ð¿Ð¾ÐºÐ¾Ñ€Ð¸Ñ‚ÑÑ: Ð·Ð²ÐµÑ€ÑŒ, Ñ†Ð²ÐµÑ‚, Ð»Ð¸ÑÑ‚, Ð¿Ñ‚Ð¸Ñ†Ð°; Ð¶ÐµÐ»ÐµÐ·Ð¾, Ð¿Ñ€Ð¾Ñ‡Ð½Ñ‹Ð¹ Ð¼ÐµÑ‡ - Ð½Ð¸Ñ‡Ñ‚Ð¾ Ð½Ðµ ÑƒÐ±ÐµÑ€ÐµÑ‡ÑŒ. ÐŸÐ¾Ð¹Ð¼Ð¸: Ð½Ð°ÑˆÐ° Ð´Ð¾Ð»Ñ - Ð¿Ñ€Ð¸Ð½ÑÑ‚ÑŒ ÐµÐ³Ð¾ Ð²Ð¾Ð»ÑŽ.');
 /*!40000 ALTER TABLE `posts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -77,4 +77,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-07 18:36:51
+-- Dump completed on 2020-11-08 13:34:20

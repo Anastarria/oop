@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ceab9be-22b7-4dfe-b81f-575c95ad2f73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/PostModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PostModel.php" afterDir="false" />
-    </list>
+    <list default="true" id="1ceab9be-22b7-4dfe-b81f-575c95ad2f73" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LaravelTry" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -117,7 +113,7 @@
       <workItem from="1604793619506" duration="1652000" />
       <workItem from="1604829483440" duration="1766000" />
       <workItem from="1604831297837" duration="1806000" />
-      <workItem from="1604833407878" duration="715000" />
+      <workItem from="1604833407878" duration="1336000" />
     </task>
     <servers />
   </component>
@@ -158,10 +154,11 @@
     </state>
     <state x="451" y="27" width="590" height="902" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1132.902@72.27.1132.902" timestamp="1604749917539" />
     <state x="691" y="176" width="590" height="664" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.948@72.27.1848.948" timestamp="1604607647562" />
-    <state x="421" y="236" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604760112549">
-      <screen x="72" y="27" width="1132" height="902" />
+    <state x="642" y="247" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604835075391">
+      <screen x="72" y="27" width="1848" height="948" />
     </state>
     <state x="421" y="236" width="424" height="491" key="FileChooserDialogImpl/72.27.1132.902@72.27.1132.902" timestamp="1604760112549" />
+    <state x="642" y="247" key="FileChooserDialogImpl/72.27.1848.948@72.27.1848.948" timestamp="1604835075391" />
     <state x="419" y="200" width="505" height="536" key="NewPhpClassDialog" timestamp="1604750622765">
       <screen x="72" y="27" width="1132" height="902" />
     </state>
