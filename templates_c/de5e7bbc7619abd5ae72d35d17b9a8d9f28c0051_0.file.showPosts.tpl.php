@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.36, created on 2020-11-07 17:50:50
+/* Smarty version 3.1.36, created on 2020-11-07 22:08:03
   from '/laravel/Views/showPosts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_5fa6de7a7d2b99_75873984',
+  'unifunc' => 'content_5fa71ac3e37ce0_47281363',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'de5e7bbc7619abd5ae72d35d17b9a8d9f28c0051' => 
     array (
       0 => '/laravel/Views/showPosts.tpl',
-      1 => 1604771220,
+      1 => 1604786881,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fa6de7a7d2b99_75873984 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fa71ac3e37ce0_47281363 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_19513399825fa6de7a7c7275_21443128', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_5168783465fa71ac3e34168_19892401', 'body');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "layout.tpl");
 }
 /* {block 'body'} */
-class Block_19513399825fa6de7a7c7275_21443128 extends Smarty_Internal_Block
+class Block_5168783465fa71ac3e34168_19892401 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_19513399825fa6de7a7c7275_21443128',
+    0 => 'Block_5168783465fa71ac3e34168_19892401',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -63,6 +63,8 @@ $_smarty_tpl->tpl_vars['post']->do_else = false;
             </div>
             <a href="/post/terminate/<?php echo $_smarty_tpl->tpl_vars['post']->value['id'];?>
 " class="btn btn-danger">Terminate</a>
+            <a href="/post/updatePage/<?php echo $_smarty_tpl->tpl_vars['post']->value['id'];?>
+" class="btn btn-warning">Update</a>
 
         </div>
     <?php

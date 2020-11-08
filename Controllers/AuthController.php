@@ -2,6 +2,12 @@
 
 class AuthController
 {
+    public function index()
+    {
+        $smarty = View::getInstance();
+        $smarty->display('index.tpl');
+    }
+
     public function loginPage()
     {
         $smarty = View::getInstance();
@@ -93,5 +99,18 @@ class AuthController
         $user->delete();
         header("Location: /user");
     }
+
+    public function userInfo()
+    {
+        UserModel::checkAuthorization();
+        $smarty = View::getInstance();
+
+        $users = UserModel::all();
+
+        $smarty->assign('users', $users);
+        $smarty->display('userInfo.tpl');
+    }
+
+
 
 }

@@ -158,4 +158,11 @@ class UserModel
                 ->fetch_all(MYSQLI_ASSOC) ?? [];
 
     }
+    public static function checkAuthorization()
+    {
+        Session::getSession();
+        if(!isset($_SESSION['user'])){
+            header("Location: /");
+        }
+    }
 }

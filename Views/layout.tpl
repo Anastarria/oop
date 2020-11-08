@@ -23,7 +23,8 @@
             {if isset($smarty.session.user)}
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="/post/show">POSTS</a></li>
-
+                    <li><a href="/post/makePage">Create Post</a></li>
+                    <li><a href="/auth/userInfo">Show Users</a></li>
                 </ul>
             {/if}
             <ul class="nav navbar-nav navbar-right">

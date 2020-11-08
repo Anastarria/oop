@@ -13,6 +13,7 @@
                 </blockquote>
             </div>
             <a href="/post/terminate/{$post['id']}" class="btn btn-danger">Terminate</a>
+            <a href="/post/updatePage/{$post['id']}" class="btn btn-warning">Update</a>
 
         </div>
     {/foreach}

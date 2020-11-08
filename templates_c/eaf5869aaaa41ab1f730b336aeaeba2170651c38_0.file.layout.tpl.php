@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.36, created on 2020-11-07 20:52:58
+/* Smarty version 3.1.36, created on 2020-11-08 10:26:50
   from '/laravel/Views/layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_5fa7092a156828_38094960',
+  'unifunc' => 'content_5fa7c7ea4a9c22_87129990',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eaf5869aaaa41ab1f730b336aeaeba2170651c38' => 
     array (
       0 => '/laravel/Views/layout.tpl',
-      1 => 1604782367,
+      1 => 1604831202,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fa7092a156828_38094960 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fa7c7ea4a9c22_87129990 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -53,7 +53,8 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
             <?php if ((isset($_SESSION['user']))) {?>
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="/post/show">POSTS</a></li>
-
+                    <li><a href="/post/makePage">Create Post</a></li>
+                    <li><a href="/auth/userInfo">Show Users</a></li>
                 </ul>
             <?php }?>
             <ul class="nav navbar-nav navbar-right">
@@ -73,7 +74,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 </nav>
 <div class="container">
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_9439095985fa7092a154d25_94327060', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1871212435fa7c7ea4a8ad7_27308352', 'body');
 ?>
 
 </div>
@@ -82,12 +83,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_9439095985fa7092a1
 </body>
 </html><?php }
 /* {block 'body'} */
-class Block_9439095985fa7092a154d25_94327060 extends Smarty_Internal_Block
+class Block_1871212435fa7c7ea4a8ad7_27308352 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_9439095985fa7092a154d25_94327060',
+    0 => 'Block_1871212435fa7c7ea4a8ad7_27308352',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

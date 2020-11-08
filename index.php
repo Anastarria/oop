@@ -24,7 +24,7 @@ $requestURI = ltrim($_SERVER['REQUEST_URI']);
 $parts = explode('/', $requestURI);
 array_shift($parts);
 
-$class = empty($parts[0]) ? 'user' : $parts[0];
+$class = empty($parts[0]) ? 'auth' : $parts[0];
 $method = $parts[1] ?? 'index';
 $parameter = $parts[2] ?? null;
 
@@ -37,5 +37,3 @@ if(method_exists($object, $method)){
 }
 
 
-
-print_r($_SESSION);

@@ -9,17 +9,18 @@ class PostModel
     private $created_at;
     private $text;
     private $db;
+    private $email;
 
     public function setAuthorEmail($email)
     {
-        $this->authorEmail = $email;
+        $this->author_email = $email;
 
         return $this;
     }
 
     public function getAuthorEmail(): ?string
     {
-        return $this->email;
+        return $this->author_email;
     }
 
     public function setText(string $text): self
@@ -78,7 +79,7 @@ class PostModel
           SET 
             title = '{$this->title}', 
             text = '{$this->text}',
-            author_email = '{$this->authorEmail}'");
+            author_email = '{$this->author_email}'");
 
         $this->setId($db->insert_id);
 
@@ -87,8 +88,28 @@ class PostModel
         return empty($db->error);
     }
 
-    private function update()
+    public function checkPostOwner()
     {
+        Session::getSession();
+
+        if ($this->author_email !== $_SESSION['user']['email']){
+            die("You are not allowed to modify posts created by other users");
+        }
+
+    }
+
+    public function update()
+    {
+        global $parameter;
+        $db = DB::getInstance();
+        $db->query("
+          UPDATE posts 
+          SET 
+            `title` = '{$this->title}', 
+            `text` = '{$this->text}'
+          WHERE `id` = `$parameter`
+          LIMIT 1");
+
 
     }
 
@@ -146,17 +167,17 @@ class PostModel
 
     public function delete(): bool
     {
-        Session::getSession();
-        if (!$this->author_email === $_SESSION['user']['email']){
-            die("You are not allowed to remove posts created by other users");
-        }
 
         if (!$this->id) {
             die("Post does not exits in DB!");
         }
 
         $db = DB::getInstance();
-        $db->query("DELETE FROM posts WHERE id = {$this->id} LIMIT 1");
+        $db->query("
+            DELETE 
+            FROM posts 
+            WHERE id = {$this->id} 
+            LIMIT 1");
 
         return (bool) $db->affected_rows;
     }
